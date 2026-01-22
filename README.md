@@ -23,7 +23,7 @@ A modern, high-performance personal portfolio website featuring a brutalist aest
 - **Canvas API** (for background effects)
 - **No Frameworks**: Pure, lightweight code for maximum performance.
 
-## 🚀 Setup & Usage
+## Setup & Usage
 
 Since this is a static site, you can view it directly:
 
