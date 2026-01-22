@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Akshun Kalra - Software Engineering student and Application Developer specializing in Python, Java, and full-stack development">
+    <title>Akshun Kalra | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo"><span class="logo-text">AK</span></a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">👋 Hello, I'm</p>
+                <h1 class="hero-title"><span class="hero-name">Akshun Kalra</span></h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="typing-cursor">|</span>
+                </h2>
+                <p class="hero-description">A Software Engineering student at Carleton University with hands-on experience building Python-based systems, full-stack applications, and AI solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/akshun" class="social-link" aria-label="GitHub" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="https://linkedin.com/in/akshun-kalra" class="social-link" aria-label="LinkedIn" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-avatar"><img src="profile.png" alt="Akshun Kalra" class="avatar-image"></div>
+                    <div class="hero-image-glow"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down"><span class="scroll-arrow"></span></a>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I'm a <strong>Software Engineering student</strong> at Carleton University with a passion for building impactful software solutions.</p>
+                    <p>Currently in my final year pursuing a Bachelor of Engineering in Software Engineering, I've gained valuable industry experience as an Application Developer at the National Research Council Canada, where I developed Python-based orchestration systems and cognitive research tools.</p>
+                    <p>I specialize in full-stack development, from building RESTful APIs with Spring Boot to creating dynamic frontends with React and HTMX. I'm also experienced with machine learning, having worked on CNN-based image classification projects.</p>
+                    <div class="about-stats">
+                        <div class="stat-item"><span class="stat-number">1</span><span class="stat-label">Year Industry Experience</span></div>
+                        <div class="stat-item"><span class="stat-number">3+</span><span class="stat-label">Major Projects</span></div>
+                        <div class="stat-item"><span class="stat-number">10+</span><span class="stat-label">Technologies</span></div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <div class="about-avatar"><span class="avatar-text">💻</span></div>
+                        <div class="about-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">02.</span> Skills & Expertise</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span><span class="skill-tag">Python</span><span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">C#</span><span class="skill-tag">Go</span><span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span><span class="skill-tag">HTML/CSS</span>
+                    </div>
+
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3 class="skill-title">Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span><span class="skill-tag">Flask</span><span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span><span class="skill-tag">JUnit</span><span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Tkinter</span><span class="skill-tag">Swing</span>
+                    </div>
+
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3 class="skill-title">Developer Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span><span class="skill-tag">Docker</span><span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">AWS</span><span class="skill-tag">Azure</span><span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Maven</span><span class="skill-tag">Jira</span>
+                    </div>
+
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="skill-icon">�</div>
+                    <h3 class="skill-title">Data & ML Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span><span class="skill-tag">NumPy</span><span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span><span class="skill-tag">SciPy</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">03.</span> Featured Projects</h2>
+            <p class="section-subtitle">Things I've built</p>
+            <div class="projects-grid">
+                <article class="project-card glass-card">
+                    <div class="project-image"><div class="project-placeholder"><span>🎫</span></div></div>
+                    <div class="project-content">
+                        <span class="project-category">Full-Stack Application</span>
+                        <h3 class="project-title">Perk Manager</h3>
+                        <p class="project-description">Full-stack membership perk management application with RESTful APIs and Spring Security. Implemented CI/CD pipelines via GitHub Actions for Azure deployment.</p>
+                        <div class="project-tech"><span>Java</span><span>Spring Boot</span><span>HTMX</span><span>Azure</span></div>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image"><div class="project-placeholder"><span>�</span></div></div>
+                    <div class="project-content">
+                        <span class="project-category">Distributed Systems</span>
+                        <h3 class="project-title">Firefighting Drone Swarm</h3>
+                        <p class="project-description">Distributed simulation of concurrent drone subsystems using custom UDP protocols. Built event-driven client-server architecture with fault-injection for robustness testing.</p>
+                        <div class="project-tech"><span>Java</span><span>UDP Sockets</span><span>Multithreading</span><span>Swing</span></div>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image"><div class="project-placeholder"><span>🤖</span></div></div>
+                    <div class="project-content">
+                        <span class="project-category">Machine Learning</span>
+                        <h3 class="project-title">CIFAR-10 Object Recognition</h3>
+                        <p class="project-description">Trained a CNN for object classification, achieving 87% accuracy. Implemented data augmentation and preprocessing for improved model robustness.</p>
+                        <div class="project-tech"><span>Python</span><span>TensorFlow</span><span>CNNs</span><span>NumPy</span></div>
+                    </div>
+                </article>
+                <article class="project-card glass-card">
+                    <div class="project-image"><div class="project-placeholder"><span>🔬</span></div></div>
+                    <div class="project-content">
+                        <span class="project-category">Research Tool</span>
+                        <h3 class="project-title">Cognitive Research Platform</h3>
+                        <p class="project-description">Python-based orchestration system using Tkinter and subprocess for modular experimental tasks. Designed high-fidelity cognitive tasks using Pygame with millisecond-level accuracy.</p>
+                        <div class="project-tech"><span>Python</span><span>Tkinter</span><span>Pygame</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience section" id="experience">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">04.</span> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Application Developer</h3>
+                            <span class="timeline-company">@ National Research Council Canada</span>
+                        </div>
+                        <span class="timeline-date">January 2024 - December 2024</span>
+                        <ul class="timeline-list">
+                            <li>Developed a Python-based orchestration system using Tkinter and subprocess for modular experimental tasks</li>
+                            <li>Built a configurable survey engine generating UI components from .ini files for human factors research</li>
+                            <li>Designed high-fidelity cognitive tasks using Pygame with millisecond-level accuracy</li>
+                            <li>Engineered real-time statistical pipelines to process experimental data and calculate performance metrics</li>
+                            <li>Authored detailed technical documentation and user manuals</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Software Engineering Student</h3>
+                            <span class="timeline-company">@ Carleton University</span>
+                        </div>
+                        <span class="timeline-date">September 2021 - May 2026</span>
+                        <ul class="timeline-list">
+                            <li>Pursuing Bachelor of Engineering in Software Engineering</li>
+                            <li>Completed coursework in data structures, algorithms, distributed systems, and machine learning</li>
+                            <li>Built multiple full-stack applications and research projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">05.</span> Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p class="contact-intro">I'm currently looking for new opportunities after completing my co-op at NRC. Whether you have a project in mind, a job opportunity, or just want to connect, I'd love to hear from you!</p>
+                    <div class="contact-info">
+                        <a href="https://github.com/akshun" class="contact-item" target="_blank"><span class="contact-icon">💻</span><span>GitHub</span></a>
+                        <a href="https://linkedin.com/in/akshun-kalra" class="contact-item" target="_blank"><span class="contact-icon">💼</span><span>LinkedIn</span></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-input form-textarea" placeholder="Your message..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Designed & Built by <strong>Akshun Kalra</strong></p>
+                <div class="footer-social">
+                    <a href="https://github.com/akshun" class="social-link" aria-label="GitHub" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="https://linkedin.com/in/akshun-kalra" class="social-link" aria-label="LinkedIn" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                </div>
+            </div>
+            <p class="footer-copyright">© 2026 All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
